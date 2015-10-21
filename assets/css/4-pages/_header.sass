@@ -1,12 +1,15 @@
 header
   height: 450px
-  background: #ccc
+  background: url(../img/hero-bg.jpg) center center
+  background-size: cover
 
   .logo
-    +size(50px)
-    background: #999
+    +size(70px)
     float: left
-    margin: 10px 0 0 30px
+    margin: 20px 0 0 30px
+
+    g#logo_ST
+      fill: rgba(0,0,0,0.4)
 
   nav
 
@@ -18,10 +21,7 @@ header
       margin: 20px
 
       color: rgba(0,0,0,0.7)
-      font:
-        size: 14px
-        weight: 700
-      text-transform: uppercase
+      @extend %small-bold
 
       &:hover
         color: rgba(0,0,0,1)
@@ -45,9 +45,7 @@ header
 
   .kicker
     text-align: center
-    font:
-      weight: 700
-    text-transform: uppercase
+    @extend %small-bold
     letter-spacing: 0.05em
     color: white
     line-height: 1

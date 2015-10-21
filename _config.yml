@@ -1,3 +1,9 @@
+# Site settings
+title: Simply Thrilled
+email: artists@email
+description: "Record Label"
+
+
 # Build settings
 
 markdown: kramdown
