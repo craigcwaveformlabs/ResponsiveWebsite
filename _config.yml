@@ -3,6 +3,11 @@ title: Artist Theme
 email: artists@email
 description: "Designer // Developer"
 
+# Change the site default images and text
+avatar: face_simplyGold.png
+
+blurb:  <p> <strong> We specialise in making things </strong> for human people. Most of the thing we make are <a href="http://behance.com"> digital interfaces </a>,
+but we also put effort into crafting next-level beats. And beets. Really good wholesome beets. </p>
 
 # Build settings
 
