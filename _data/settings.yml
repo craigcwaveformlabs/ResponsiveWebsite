@@ -1,0 +1,12 @@
+#-------------------------
+# Work Section
+
+projects:
+- {name: Typo International, folder: 'proj-1'}
+- {name: American Apparel, folder: 'proj-2'}
+- {name: Icon Set, folder: 'proj-3'}
+- {name: Profile Page, folder: 'proj-4'}
+- {name: Graph Paper, folder: 'proj-5'}
+- {name: Mapping Apping, folder: 'proj-6'}
+- {name: Coast to Coast, folder: 'proj-7'}
+- {name: Outlines, folder: 'proj-8'}
