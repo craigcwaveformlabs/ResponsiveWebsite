@@ -452,19 +452,19 @@ header, footer {
   background-blend-mode: overlay, normal; }
 
 header {
-  background-position: 30px 20px, 50% 50%;
-  background-image: url(../img/face_simplyThrilled.png), url(../img/hero-bg.jpg);
+  background-position: 30px 30px, 50% 50%;
+  background-image: url(../img/logo.svg), url(../img/hero-bg.jpg);
   padding-bottom: 50px; }
   header .logo {
     height: 70px;
     width: 70px;
     float: left;
-    margin: 20px 0 0 30px; }
+    margin: 10px 0 0 30px; }
     header .logo g#logo_ST {
       fill: rgba(0, 0, 0, 0.4); }
   header nav {
     float: right;
-    margin: 30px 30px 0 0; }
+    padding: 30px 30px 0 0; }
     header nav a {
       display: inline-block;
       margin: 20px;
@@ -492,10 +492,16 @@ header {
     line-height: 1; }
 
 @media (max-width: 640px) {
-  .logo {
-    position: 50% 20px; } }
+  header {
+    background-position: 50% 20px, 50% 50%; }
+    header nav {
+      float: none;
+      text-align: center;
+      padding-top: 80px; }
+    header h1 {
+      padding-top: 0px; } }
 footer {
-  background-image: url(../img/face_simplyThrilled.png), url(../img/hero-bg.jpg); }
+  background-image: url(../img/logo.svg), url(../img/hero-bg.jpg); }
   footer .lockup {
     padding: 50px 30px; }
     footer .lockup:after {

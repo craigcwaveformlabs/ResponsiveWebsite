@@ -1,7 +1,7 @@
 header
   @extend %background-image
   background:
-    position: 30px 20px, 50% 50%
+    position: 30px 30px, 50% 50%
     image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
   padding-bottom: 50px
 
@@ -9,7 +9,7 @@ header
   .logo
     +size(70px)
     float: left
-    margin: 20px 0 0 30px
+    margin: 10px 0 0 30px
 
     g#logo_ST
       fill: rgba(0,0,0,0.4)
@@ -17,7 +17,7 @@ header
   nav
 
     float: right
-    margin: 30px 30px 0 0
+    padding: 30px 30px 0 0
 
     a
       display: inline-block
@@ -56,5 +56,14 @@ header
 
 // Some media queries
 @media (max-width: 640px)
-  .logo
-    position: 50% 20px
+  header
+    background:
+      position: 50% 20px, 50% 50%
+
+    nav
+      float: none
+      text-align: center
+      padding-top: 80px
+
+    h1
+      padding-top: 0px
