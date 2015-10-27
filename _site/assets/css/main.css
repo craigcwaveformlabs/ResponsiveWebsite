@@ -733,3 +733,111 @@ footer {
     left: 0px; }
   .work-container h4 {
     margin-left: 60px; } }
+.section-clients {
+  position: relative; }
+
+.clients-belt {
+  width: 100%;
+  position: relative; }
+  .clients-belt .client-unit {
+    max-width: 750px;
+    margin: 0 auto 50px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .clients-belt .client-unit .client-face {
+      min-width: 300px;
+      text-align: center; }
+      .clients-belt .client-unit .client-face img {
+        max-width: 100px;
+        border-radius: 50%; }
+      .clients-belt .client-unit .client-face .client-name {
+        display: block;
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 1px; }
+      .clients-belt .client-unit .client-face .client-title {
+        font-style: normal;
+        font-size: 12px;
+        color: #999; }
+    .clients-belt .client-unit .client-content {
+      font-size: 18px;
+      line-height: 36px;
+      font-weight: 300;
+      margin-top: -10px;
+      position: relative; }
+
+.clients-logo {
+  position: relative;
+  max-width: 750px;
+  margin: 0 auto 100px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: space-around;
+  -moz-box-align: space-around;
+  box-align: space-around;
+  -webkit-align-items: space-around;
+  -moz-align-items: space-around;
+  -ms-align-items: space-around;
+  -o-align-items: space-around;
+  align-items: space-around;
+  -ms-flex-align: space-around;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center; }
+  .clients-logo .client-logo {
+    height: 80px;
+    min-width: 200px;
+    background-image: url(/assets/img/clients/logo1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin: 0px 10px; }
+    .clients-logo .client-logo.active-client {
+      box-shadow: 0px 4px 0px #BD5248; }
+
+.client-quote-mark {
+  position: absolute;
+  top: -18px;
+  left: -12px;
+  height: 60px;
+  width: 60px;
+  z-index: -1; }
+  .client-quote-mark path {
+    fill: #e1c184;
+    opacity: 0.4; }
+
+.client-controls {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  left: 1px; }
+  .client-controls > div {
+    height: 40px;
+    width: 40px;
+    margin-top: -20px; }
+  .client-controls .client-control-next {
+    position: absolute;
+    top: 50%;
+    right: 10px; }
+  .client-controls .client-control-prev {
+    position: absolute;
+    top: 50%;
+    left: 10px; }
