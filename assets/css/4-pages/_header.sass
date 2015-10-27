@@ -1,7 +1,10 @@
 header
-  height: 450px
-  background: url(../img/hero-bg.jpg) center center
-  background-size: cover
+  @extend %background-image
+  background:
+    position: 30px 20px, 50% 50%
+    image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
+  padding-bottom: 50px
+
 
   .logo
     +size(70px)
@@ -49,3 +52,9 @@ header
     letter-spacing: 0.05em
     color: white
     line-height: 1
+
+
+// Some media queries
+@media (max-width: 640px)
+  .logo
+    position: 50% 20px

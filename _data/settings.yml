@@ -16,6 +16,18 @@ menu:
 - {name: Contact, url: '#contact'}
 
 
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Provide a description for your website to make it visible to search engines.'
+  rel-author: ''
+  rel-publisher: ''
+
+
+
 #-------------------------
 # About Section
 # Change the site default images and text

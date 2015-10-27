@@ -445,10 +445,16 @@ h3, header nav a, header .kicker, footer .lockup .content-wrap a {
   font-weight: 700;
   text-transform: uppercase; }
 
+header, footer {
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50px 50px, cover;
+  background-position: 30px 50px, 50% 50%;
+  background-blend-mode: overlay, normal; }
+
 header {
-  height: 450px;
-  background: url(../img/hero-bg.jpg) center center;
-  background-size: cover; }
+  background-position: 30px 20px, 50% 50%;
+  background-image: url(../img/face_simplyThrilled.png), url(../img/hero-bg.jpg);
+  padding-bottom: 50px; }
   header .logo {
     height: 70px;
     width: 70px;
@@ -485,24 +491,20 @@ header {
     color: white;
     line-height: 1; }
 
+@media (max-width: 640px) {
+  .logo {
+    position: 50% 20px; } }
 footer {
-  background: url(../img/hero-bg.jpg) center center;
-  background-size: cover; }
+  background-image: url(../img/face_simplyThrilled.png), url(../img/hero-bg.jpg); }
   footer .lockup {
     padding: 50px 30px; }
     footer .lockup:after {
       content: "";
       display: table;
       clear: both; }
-    footer .lockup .logo {
-      height: 50px;
-      width: 50px;
-      float: left;
-      margin-right: 50px; }
-      footer .lockup .logo g#logo_ST {
-        fill: rgba(0, 0, 0, 0.4); }
     footer .lockup .content-wrap {
-      float: left; }
+      float: left;
+      margin-left: 80px; }
       footer .lockup .content-wrap .copyright {
         margin: 0;
         text-transform: uppercase;
@@ -513,7 +515,7 @@ footer {
         display: inline-block;
         margin-right: 30px; }
         footer .lockup .content-wrap a:hover {
-          color: black; }
+          color: rgba(0, 0, 0, 0.7); }
 
 .face-lockup {
   max-width: 780px;

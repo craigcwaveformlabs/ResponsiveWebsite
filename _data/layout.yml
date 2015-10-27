@@ -1,0 +1,16 @@
+# Layout settings
+
+# Images
+
+logo: "face_simplyThrilled.png"
+hero: "hero-bg.jpg"
+avatar: "face_simplyGold.png"
+
+# Colors
+
+accent: "#c99065"
+
+textColor: "#666"
+headlineColor: "#333"
+bgcolor: "#e5eaee"
+documentBackgroundColor: "#fff"
