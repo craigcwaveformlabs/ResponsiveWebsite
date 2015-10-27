@@ -10,3 +10,12 @@ projects:
 - {name: Mapping Apping, folder: 'proj-6'}
 - {name: Coast to Coast, folder: 'proj-7'}
 - {name: Outlines, folder: 'proj-8'}
+
+#-------------------------
+# Clients
+
+clients:
+- {avatar: 'face-aaroni.jpg', name: 'A Aroni', title: 'Director of Design, Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>', logo: 'logo1.png'}
+- {avatar: 'face-atariboy.jpg', name: 'Atari Boy', title: 'Director of Design, Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>', logo: 'logo2.png'}
+- {avatar: 'face-jackiesaik.jpg', name: 'Jackie Saik', title: 'Director of Design, Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>', logo: 'logo3.png'}
+- {avatar: 'face-teleject.jpg', name: 'Tele Ject', title: 'Director of Design, Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>', logo: 'logo4.png'}
