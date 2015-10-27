@@ -738,14 +738,11 @@ footer {
 
 .clients-belt {
   width: 100%;
-  position: relative;
-  margin-top: 50px; }
+  position: relative; }
   .clients-belt .client-unit {
     max-width: 750px;
-    margin: 0 0 50px -375px;
-    position: absolute;
-    top: 0px;
-    left: 50%;
+    margin: 50px auto;
+    position: relative;
     z-index: 1;
     display: none; }
     .clients-belt .client-unit.active-client {
@@ -757,7 +754,7 @@ footer {
       display: -ms-flexbox;
       display: flex; }
     .clients-belt .client-unit .client-face {
-      min-width: 300px;
+      min-width: 180px;
       text-align: center; }
       .clients-belt .client-unit .client-face img {
         max-width: 100px;
@@ -778,10 +775,11 @@ footer {
       margin-top: -10px;
       position: relative; }
 
-.clients-logo {
+.clients-logos {
   position: relative;
+  z-index: 3;
   max-width: 750px;
-  margin: 350px auto 50px;
+  margin: 0px auto 100px;
   display: -webkit-box;
   display: -moz-box;
   display: box;
@@ -789,57 +787,59 @@ footer {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: space-around;
-  -moz-box-align: space-around;
-  box-align: space-around;
-  -webkit-align-items: space-around;
-  -moz-align-items: space-around;
-  -ms-align-items: space-around;
-  -o-align-items: space-around;
-  align-items: space-around;
-  -ms-flex-align: space-around;
+  -webkit-box-align: end;
+  -moz-box-align: end;
+  box-align: end;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  -ms-align-items: flex-end;
+  -o-align-items: flex-end;
+  align-items: flex-end;
+  -ms-flex-align: end;
   -webkit-box-pack: center;
   -moz-box-pack: center;
   box-pack: center;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  -o-justify-content: center;
-  justify-content: center;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -o-justify-content: space-around;
+  justify-content: space-around;
   -ms-flex-pack: center; }
-  .clients-logo .client-logo {
-    height: 80px;
-    min-width: 200px;
-    background-size: contain;
-    background-position: center bottom;
-    background-repeat: no-repeat;
+  .clients-logos .client-logo {
     cursor: pointer;
-    margin: 0px 10px; }
-    .clients-logo .client-logo.active-client {
-      box-shadow: 0px 10px 0px #FFFFFF, 0px 14px 0px #BD5248; }
+    margin: 0 20px 20px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid transparent;
+    opacity: 0.5; }
+    .clients-logos .client-logo.active-client {
+      opacity: 1;
+      border-bottom: 4px solid #BD5248; }
 
 .client-quote-mark {
   position: absolute;
   top: -18px;
-  left: -12px;
+  left: -15px;
   height: 60px;
   width: 60px;
-  z-index: -1; }
+  z-index: -1;
+  opacity: 0.3; }
   .client-quote-mark path {
-    fill: #BD5248;
-    opacity: 0.4; }
+    fill: #BD5248; }
 
 .client-controls {
   position: absolute;
-  top: 1px;
-  right: 1px;
-  bottom: 1px;
-  left: 1px;
-  cursor: pointer; }
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 2; }
   .client-controls > div {
     height: 40px;
     width: 40px;
-    margin-top: -20px; }
+    margin-top: -20px;
+    cursor: pointer; }
+    .client-controls > div path {
+      fill: #BD5248; }
   .client-controls .client-control-next {
     position: absolute;
     top: 50%;
@@ -848,3 +848,54 @@ footer {
     position: absolute;
     top: 50%;
     left: 10px; }
+
+.clients-mobile-nav {
+  text-align: center;
+  position: relative;
+  z-index: 3;
+  display: none; }
+  .clients-mobile-nav span {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: solid 2px #e5eaee;
+    margin: 0px 10px;
+    cursor: pointer; }
+    .clients-mobile-nav span.active-client {
+      border-color: #BD5248; }
+
+@media (max-width: 850px) {
+  .clients-logos {
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    box-lines: multiple;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+
+  .clients-belt {
+    overflow-x: hidden; }
+    .clients-belt .client-unit.active-client {
+      display: block;
+      position: relative;
+      margin-left: auto;
+      left: auto; }
+      .clients-belt .client-unit.active-client .client-face {
+        margin-bottom: 30px; }
+      .clients-belt .client-unit.active-client .client-content {
+        padding: 0px 30px;
+        max-width: 400px;
+        margin: 0px auto; }
+      .clients-belt .client-unit.active-client .client-quote-mark {
+        left: 6px; }
+
+  .clients-logos {
+    display: none; }
+
+  .clients-mobile-nav {
+    display: block; } }
+@media (max-width: 600px) {
+  .client-controls {
+    display: none; } }

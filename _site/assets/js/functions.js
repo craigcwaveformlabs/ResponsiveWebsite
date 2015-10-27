@@ -3,12 +3,9 @@ $( document ).ready(function() {
   smoothScroll(1000);
   workBelt();
   workLoad();
-
   clientStuff();
 
 });
-
-
 
 
 
@@ -65,55 +62,43 @@ function workLoad() {
 
 function clientStuff() {
 
-  $('.client-unit').first().addClass('active-client');
-  $('.client-logo').first().addClass('active-client');
-
-  //click on a client logo
-  $('.client-logo').on('click', function() {
+  $('.client-logo, .client-button').click(function() {
     var $this = $(this),
-        //list all of the icons in the group
-        $siblings = $this.parent().children(),
-        // caputure the index of the clicked item
-        position = $siblings.index($this);
-    // remove all active class, and then add active for clicked item
+        position = $this.parent().children().index($this);
+
     $('.client-unit').removeClass('active-client').eq(position).addClass('active-client');
-    // highlight active item
-    $siblings.removeClass('active-client').eq(position).addClass('active-client');
+    $('.client-logo').removeClass('active-client').eq(position).addClass('active-client');
+    $('.client-button').removeClass('active-client').eq(position).addClass('active-client');
   });
 
-  // click on the next or prev button
-  $('.client-control-next, .client-control-prev').on('click', function() {
+
+  $('.client-control-next, .client-control-prev').click(function() {
+
     var $this = $(this),
-        // find the active unit
         curActiveClient = $('.clients-belt').find('.active-client'),
-        // find the position of the active
         position = $('.clients-belt').children().index(curActiveClient),
-        // read total number of clients
         clientNum = $('.client-unit').length;
-        // check which button has been pressed
-        if($this.hasClass('client-control-next')) {
-          // next button clicked
-          if(position < clientNum - 1) {
+
+      if($this.hasClass('client-control-next')) {
+
+        if(position < clientNum -1){
           $('.active-client').removeClass('active-client').next().addClass('active-client');
-          }
-          else {
-            $('.client-unit').removeClass('active-client').first().addClass('active-client');
-            $('.client-logo').removeClass('active-client').first().addClass('active-client');
-          }
         } else {
-          // prev button clicked
-          if(position === 0) {
-            $('.client-unit').removeClass('active-client').last().addClass('active-client');
-            $('.client-logo').removeClass('active-client').last().addClass('active-client');
-          }
-          else {
-            $('.active-client').removeClass('active-client').prev().addClass('active-client');
-          }
+          $('.client-unit').removeClass('active-client').first().addClass('active-client');
+          $('.client-logo').removeClass('active-client').first().addClass('active-client');
+          $('.client-button').removeClass('active-client').first().addClass('active-client');
         }
 
+      } else {
 
+        if (position === 0) {
+          $('.client-unit').removeClass('active-client').last().addClass('active-client');
+          $('.client-logo').removeClass('active-client').last().addClass('active-client');
+          $('.client-button').removeClass('active-client').last().addClass('active-client');
+        } else {
+          $('.active-client').removeClass('active-client').prev().addClass('active-client');
+        }
 
+      }
   });
-
-
 } // end of clientStuff
