@@ -1,3 +1,30 @@
+#-------------------------------
+# General Site Settings
+
+title: Artists Theme
+description: Designer // Developer
+email: artist@email.com
+
+
+#-------------------------
+# Navigation Menu Section
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Clients, url: '#clients'}
+- {name: Contact, url: '#contact'}
+
+
+#-------------------------
+# About Section
+# Change the site default images and text
+
+avatar: face_simplyGold.png
+blurb:  <p> <strong> We specialise in making things </strong> for human people. Most of the thing we make are <a href="http://behance.com"> digital interfaces </a>,
+ but we also put effort into crafting next-level beats. And beets. Really good wholesome beets. </p>
+
+
 #-------------------------
 # Work Section
 
@@ -19,3 +46,13 @@ clients:
 - {avatar: 'face-atariboy.jpg', name: 'Atari Boy', title: 'Director of Design, Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>', logo: 'logo2.png'}
 - {avatar: 'face-jackiesaik.jpg', name: 'Jackie Saik', title: 'Director of Design, Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>', logo: 'logo3.png'}
 - {avatar: 'face-teleject.jpg', name: 'Tele Ject', title: 'Director of Design, Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>', logo: 'logo4.png'}
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'twitter', link: 'http://twitter.com'}
+- {icon: 'dribbble', link: 'https://dribbble.com'}
+- {icon: 'behance', link: 'https://www.behance.net'}
+- {icon: 'youtube', link: 'https://www.youtube.com'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com'}
