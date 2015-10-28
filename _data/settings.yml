@@ -32,9 +32,20 @@ seo:
 # About Section
 # Change the site default images and text
 
-avatar: face_simplyGold.png
-blurb:  <p> <strong> We specialise in making things </strong> for human people. Most of the thing we make are <a href="http://behance.com"> digital interfaces </a>,
+avatar: face_Specs.jpg
+blurb:  <p> <strong> We specialise in making things </strong> for human people. <br> Most of the things we make are <a href="http://behance.com"> digital interfaces </a>,
  but we also put effort into crafting next-level beats. And beets. Really good wholesome beets. </p>
+
+skills:
+- {name: Communication, value: '8'}
+- {name: Organization, value: '7'}
+- {name: Learning, value: '9'}
+- {name: Teaching, value: '6'}
+- {name: Planning, value: '7'}
+- {name: Visual Design, value: '6'}
+- {name: UX Design, value: '8'}
+- {name: Programming, value: '8'}
+
 
 
 #-------------------------

@@ -1,6 +1,6 @@
 
 .alt-section
-  background: $bg-headlineColor
+  background: $bgcolor
 
 .section-work
   overflow-x: hidden
@@ -41,7 +41,7 @@
     .thumb-overlay
       +position(absolute, 0% 0px null 0px)
       height: 100%
-      background: fade-out($accent-color, 0.1)
+      background: fade-out($accent, 0.1)
       text-align: center
       +display(flex)
       +align-items(center)
@@ -80,7 +80,7 @@
   display: none
 
   h4
-    color: $accent-color
+    color: $accent
     font-weight: 300
     text-transform: uppercase
     font-size: 28px

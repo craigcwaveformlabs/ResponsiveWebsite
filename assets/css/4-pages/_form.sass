@@ -4,7 +4,7 @@ form
   padding: 0 20px
 
   input, textarea
-    border: 3px solid $accent-color
+    border: 3px solid $accent
     width: 100%
     +box-sizing(border-box)
     padding: 10px
@@ -15,7 +15,8 @@ form
 
     &:focus
       outline: none
-      border-color: $accent-head
+      border-color: $accent-light
+
 
   textarea
     height: 10em
@@ -25,14 +26,14 @@ form
     text-align: right
 
   [type="submit"]
-    background: $accent-color
+    background: $accent
     color: white
     font-size: 18px
     text-transform: uppercase
     width: 33%
 
     &:hover
-      background: $accent-head
+      background: $accent-light
 
 
   .contact-info-group
