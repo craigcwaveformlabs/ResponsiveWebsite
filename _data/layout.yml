@@ -1,5 +1,7 @@
 # Layout settings
 
+animation: "bounceOut"
+
 # Images
 
 logo: "logo2.svg"

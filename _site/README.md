@@ -1,8 +1,5 @@
-Responsive Website (Jekyll Friendly)
-===================
+# Theme Website
 
-Responsive Website, using Jekyll, following along with DevTips.
+Responsive Theme Website, using Jekyll.
 
-Building a Single-Page Artist-Theme portfolio site.
-
-![Artist Theme](screenshots/thumbnail.png "Artist Theme Full Page View")
+![Theme Website](img/thumbnail.png "Artist Theme")

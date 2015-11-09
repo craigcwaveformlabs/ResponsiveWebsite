@@ -1,20 +1,17 @@
 #-------------------------------
 # General Site Settings
 
-title: Artists Theme
+title: Artist Theme
 description: Designer // Developer
-email: artist@email.com
+email: me@email.com
 
-
-#-------------------------
-# Navigation Menu Section
+# NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
 - {name: About Me, url: '#about-me'}
 - {name: Work, url: '#work'}
 - {name: Clients, url: '#clients'}
 - {name: Contact, url: '#contact'}
-
 
 #-------------------------------
 # SEO Section
@@ -23,52 +20,80 @@ menu:
 
 seo:
   description: 'Provide a description for your website to make it visible to search engines.'
-  rel-author: ''
-  rel-publisher: ''
+  rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+  rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
 
+#-------------------------------
+# Google Analytics Section
 
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
 
-#-------------------------
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
 # About Section
-# Change the site default images and text
 
-# avatar: face_Halo.jpg
-blurb:  <p> <strong> We specialise in making things </strong> for human people. <br> Most of the things we make are <a href="http://behance.com"> digital interfaces </a>,
- but we also put effort into crafting next-level beats. And beets. Really good wholesome beets. </p>
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: >
+  **We specialize in making things** for human people.
+  Most of the things we makes are [digital interfaces](http://behance.com){:target="_blank"}
+
 
 skills:
-- {name: Communication, value: '8'}
+- {name: Communication, value: '9'}
 - {name: Organization, value: '7'}
-- {name: Learning, value: '9'}
+- {name: Learning, value: '10'}
 - {name: Teaching, value: '6'}
 - {name: Planning, value: '7'}
-- {name: Visual Design, value: '6'}
+- {name: Visual Design, value: '5'}
 - {name: UX Design, value: '8'}
-- {name: Programming, value: '8'}
+- {name: Programming, value: '6'}
 
-
-
-#-------------------------
+#-------------------------------
 # Work Section
 
 projects:
-- {name: Typo International, folder: 'proj-1'}
-- {name: American Apparel, folder: 'proj-2'}
-- {name: Icon Set, folder: 'proj-3'}
-- {name: Profile Page, folder: 'proj-4'}
-- {name: Graph Paper, folder: 'proj-5'}
-- {name: Mapping Apping, folder: 'proj-6'}
-- {name: Coast to Coast, folder: 'proj-7'}
-- {name: Outlines, folder: 'proj-8'}
+- {name: TYPO International Design Talks, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: City-IN website concept, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Crispy Icons, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Flat Mobile UI/UX Concept, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Fresh It Up, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: Timeline Page, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: Weather Dashboard, folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: Stripes & Co, folder: 'proj-8', file: 'work/proj-8.html'}
 
-#-------------------------
-# Clients
+
+
+
+#-------------------------------
+# Clients Section
 
 clients:
-- {avatar: 'face-aaroni.jpg', name: 'A Aroni', title: 'Director of Design, Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>', logo: 'logo1.png'}
-- {avatar: 'face-atariboy.jpg', name: 'Atari Boy', title: 'Director of Design, Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>', logo: 'logo2.png'}
-- {avatar: 'face-jackiesaik.jpg', name: 'Jackie Saik', title: 'Director of Design, Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>', logo: 'logo3.png'}
-- {avatar: 'face-teleject.jpg', name: 'Tele Ject', title: 'Director of Design, Quebec Int.', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>', logo: 'logo4.png'}
+- {avatar: 'face-aaroni.jpg',
+  name: 'A Aroni',
+  title: 'Director of Design, OnToText Ind.',
+  quote: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>',
+  logo: 'logo1.png'}
+- {avatar: 'face-atariboy.jpg',
+  name: 'Atari Boy',
+  title: 'Eater of Salad, Antartica Int.',
+  quote: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>',
+  logo: 'logo2.png'}
+- {avatar: 'face-jackiesaik.jpg',
+  name: 'Jackie Saik',
+  title: 'Social Media, Quebec Int.',
+  quote: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>',
+  logo: 'logo3.png'}
+- {avatar: 'face-teleject.jpg',
+  name: 'Teleject',
+  title: 'VP of Helmut, Lorem Sorem LLC.',
+  quote: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>',
+  logo: 'logo4.png'}
+
 
 #-------------------------------
 # Contact Section
@@ -79,3 +104,6 @@ social:
 - {icon: 'behance', link: 'https://www.behance.net'}
 - {icon: 'youtube', link: 'https://www.youtube.com'}
 - {icon: 'linkedin', link: 'http://www.linkedin.com'}
+
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
