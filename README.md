@@ -2,4 +2,4 @@
 
 Responsive Theme Website, using Jekyll.
 
-![Theme Website](img/thumbnail.png "Artist Theme")
+![Theme Website](assets/img/thumbnail.png "Artist Theme")
