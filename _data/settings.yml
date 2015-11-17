@@ -40,7 +40,7 @@ seo:
 
 blurb: >
   **We specialize in making things** for human people.
-  Most of the things we makes are [digital interfaces](http://behance.com){:target="_blank"}
+  Most of the things we makes are <strong>[digital interfaces](http://behance.com){:target="_blank"}</strong>
 
 
 skills:
@@ -67,31 +67,30 @@ projects:
 - {name: Stripes & Co, folder: 'proj-8', file: 'work/proj-8.html'}
 
 
-
-
 #-------------------------------
 # Clients Section
+
 
 clients:
 - {avatar: 'face-aaroni.jpg',
   name: 'A Aroni',
   title: 'Director of Design, OnToText Ind.',
-  quote: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>',
+  quote: '<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>',
   logo: 'logo1.png'}
 - {avatar: 'face-atariboy.jpg',
   name: 'Atari Boy',
-  title: 'Eater of Salad, Antartica Int.',
-  quote: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>',
+  title: 'Eating, Antartica Int.',
+  quote: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>',
   logo: 'logo2.png'}
 - {avatar: 'face-jackiesaik.jpg',
   name: 'Jackie Saik',
-  title: 'Social Media, Quebec Int.',
-  quote: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>',
+  title: 'Social, Quebec Int.',
+  quote: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>',
   logo: 'logo3.png'}
 - {avatar: 'face-teleject.jpg',
   name: 'Teleject',
   title: 'VP of Helmut, Lorem Sorem LLC.',
-  quote: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>',
+  quote: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>',
   logo: 'logo4.png'}
 
 
