@@ -2,4 +2,8 @@
 
 Responsive Theme Website, using Jekyll.
 
-![Theme Website](assets/img/thumbnail.png "Artist Theme")
+Screens
+![Device View](assets/img/devices.png "Artist Theme on Devices")
+
+Full Page View
+![Full Page View](assets/img/thumbnail.png "Full Page Artist Theme")
